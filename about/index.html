@@ -1,4 +1,38 @@
-<h1>QR Code Scanner</h1>
-<p>Pilicom Apps</p>
-<img src="../images/logo.png">
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="icon" href="../images/logo.png" sizes="any">
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        .img {
+            background-image: url(../images/logo.png);
+            width: 50px;
+            height: 50px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            border-radius: 5px;
+        }
+        .flex {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <h3>QR Code Scanner</h3>
+        <div>by</div>
+    </div>
+    <div class="flex">
+        <div class="img"></div>
+        <div>Pilicom Apps</div>
+    </div>
+    <p>v1.0</p>
+</body>
+</html>
